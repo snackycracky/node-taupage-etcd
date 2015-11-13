@@ -1,0 +1,27 @@
+{
+  "action": "get",
+  "node": {
+    "key": "/taupage",
+    "dir": true,
+    "nodes": [
+      {
+        "key": "/taupage/ip-172-31-174-68.eu-west-1.compute.internal",
+        "value": "{\"etcd_discovery_domain\": \"afrika.app123.domain.com\", \"instance_logs_url\": \"https://fullstop.stups.domain.com/api/instance-logs\", \"scalyr_account_key\": \"....-\", \"application_id\": \"app-backend\", \"token_service_url\": \"https://token.auth.domain.com/access_token\", \"mint_bucket\": \"abc-123-eu-west-1\", \"root\": false, \"oauth_access_token_url\": \"https://auth.domain.com/oauth2/access_token?realm=/services\", \"runtime\": \"Docker\", \"ports\": {\"3030\": 3030}, \"application_version\": \"0.0.1-SNAPSHOT\", \"notify_cfn\": {\"resource\": \"AppServer\", \"stack\": \"app-backend-southAmerika\"}, \"source\": \"access-server.stups.domain.com/app123/app-backend:0.0.1-SNAPSHOT\"}",
+        "expiration": "2015-11-11T20:10:43.842825028Z",
+        "ttl": 15,
+        "modifiedIndex": 255,
+        "createdIndex": 255
+      },
+      {
+        "key": "/taupage/ip-172-31-147-23.eu-west-1.compute.internal",
+        "value": "{\"root\": false, \"ports\": {\"8081\": 8081}, \"runtime\": \"Docker\", \"notify_cfn\": {\"stack\": \"app-europe\", \"resource\": \"AppServer\"}, \"scalyr_account_key\": \"....-\", \"instance_logs_url\": \"https://fullstop.stups.domain.com/api/instance-logs\", \"source\": \"access-server.stups.domain.com/app123/app:0.0.1-SNAPSHOT\", \"mint_bucket\": \"abc-123-eu-west-1\", \"application_version\": \"0.0.1-SNAPSHOT\", \"application_id\": \"app\", \"etcd_discovery_domain\": \"afrika.app123.domain.com\", \"token_service_url\": \"https://token.auth.domain.com/access_token\", \"oauth_access_token_url\": \"https://auth.domain.com/oauth2/access_token?realm=/services\", \"health_check_path\": \"/\"}",
+        "expiration": "2015-11-11T20:10:43.970508161Z",
+        "ttl": 15,
+        "modifiedIndex": 256,
+        "createdIndex": 256
+      }
+    ],
+    "modifiedIndex": 53,
+    "createdIndex": 53
+  }
+}

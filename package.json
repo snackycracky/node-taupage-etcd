@@ -1,0 +1,35 @@
+{
+  "name": "node-taupage-etcd",
+  "version": "0.0.1",
+  "description": "finds the internal dns for the required server",
+  "repository": {
+    "type": "git",
+    "url": "git@github.bus.zalan.do:npetersohn/node-taupage-etcd"
+  },
+  "author": "Nils Petersohn",
+  "main": "dist/etcd.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --reporter spec test-dist/*"
+  },
+  "keywords": [
+    "module",
+    "es6",
+    "es5",
+    "babel"
+  ],
+  "dependencies": {
+    "node-etcd": "^4.2.1"
+  },
+  "devDependencies": {
+    "babel": "^5.2.17",
+    "chai": "^2.3.0",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-jshint": "^1.12.0",
+    "gulp-mocha": "^2.0.1",
+    "mocha": "^2.2.4"
+  },
+  "engine": "node >= 0.10.x",
+  "homepage": "https://github.bus.zalan.do/npetersohn/node-taupage-etcd",
+  "license": "MIT"
+}
